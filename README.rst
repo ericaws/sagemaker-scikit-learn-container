@@ -122,7 +122,7 @@ If you want to build "final" Docker images, then use:
     # Example
 
     # CPU
-    docker build -t preprod-sklearn:0.4.0-cpu-py3 -f docker/0.4.0/final/Dockerfile.cpu --build-arg py_version=3 .
+    docker build -t preprod-sklearn:tps -f docker/0.20.0/final/Dockerfile.cpu --build-arg py_version=3 .
 
 
 Running the tests
